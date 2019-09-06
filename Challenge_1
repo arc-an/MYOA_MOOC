@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head> <title>chatter|app</title>
+    <meta charset="UTF-8">
+    <style>
+         * {
+            font-family: Roboto, Arial, sans-serif;
+         }
+        h1 {
+            color: #00838f;
+        }
+        h2 {
+            color: #00838f;
+            font-size: smaller;
+        }
+        p {
+            background-color: #eeeeee;
+        }
+        .button    {
+             background-color: #00838f;
+             color: white;
+            font-size: larger;
+            text-transform: uppercase;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <h1>chatter|app</h1>
+    <h2>Favorites</h2>
+    <h3><strong>DWAkademie</strong> <smaller>12.23</smaller><br>
+        <strong>GuitarChannel</strong> <smaller>14.35</smaller></h3>
+
+    <h2>Regular</h2>
+    <h3><strong>EUweather</strong> <smaller>3 September 2019</smaller><br>
+        <strong>Dezeen</strong> <smaller>29 August 2019</smaller></h3>
+    
+        <!--chat history-->
+        
+    <h1>GuitarChannel</h1>
+    <button class="button"><strong>Favorite</strong></button>
+
+
+        <button></button>
+        <h2>Ren</h2>
+
+        <p>Caroulli's concert tomorrow might be postponed. I'll keep you updated. In the meantime check the <em>Studio's</em> schedule for new announcements. 
+            <br>
+            <br><smaller>10.24</smaller>
+        </p>
+
+        <h2>Ren</h2>
+
+        <p>The concert will take place at a different venue. Bad weather conditions. No outdoor performance. What a pitty!
+            <br>
+            <br> <smaller>11.10</smaller>
+         </p>
+
+         <h2>Ren</h2>
+
+         <p>The performance will include <em>Paganini</em> and <em>Enescu</em>. What a treat:) Come earlier to pick up your seats. See you there!
+            <br>
+            <br> <smaller>10.24</smaller>
+            </p>
+
+<form>
+    <input type="text">
+    <input type="button" class="button" value="SEND">
+</form>
+
+
+
+</body>
+
+</html>
