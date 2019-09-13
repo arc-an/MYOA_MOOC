@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head> <title>chatter|app</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style2.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+    <section  id="channels">
+        <div class="headbar">
+               <div id="Moocus"> <img src="https://ip.lfe.mw.tum.de/sections/moocus.png" alt="Moocus the logo duck" style="height: 56px"></div>
+               <span id="chatter-app">chatter|app</span>
+            </div>
+        <ul class="channel-list">
+            <li style="color: #00838f">FAVORITES</li>
+            <li><span class="channel-name">DWAkademie   <p>12.30</p></span></li>
+            <li><span class="channel-name" id="selected">GuitarChannel  <p>23.20</p></span></li>
+            <li style="color:#00838f">REGULAR</li>
+            <li><span class="channel-name">EUweather    <p>7.23</p></span></li>
+            <li><span class="channel-name">Dezeen   <p>14.15</p></span></li>
+        </ul>
+    </section>
+
+        <!--chat history-->
+    
+    <section id="chat">
+        <div class="headbar">
+                GuitarChannel
+                <input type="button" class="button" value="FAVORITE">
+              
+        </div>
+
+        <div id="chat-area">
+            <div class="outgoing_message">
+                    <p><strong style="large">Ren</strong>
+                    <br>Caroulli's concert tomorrow might be postponed. I'll keep you updated. In the meantime check the <em>Studio's</em> schedule for new announcements. 
+                     </p>      
+            </div>
+
+            <div id="time">10.24</div>
+            
+            <div class="outgoing_message">
+                    <p><strong style="large">Ren</strong>
+                    <br> The concert will take place at a different venue. Bad weather conditions. No outdoor performance. What a pitty!
+                     </p>
+            </div>
+
+            <div id="time">11.10</div>
+
+            <div class="incoming_message">
+                    <p> Come earlier to pick up your seats. See you there!</p>
+            </div>
+
+            <div id="time">13.19</div>
+               
+            <div class="outgoing_message">
+                    <p><strong style="large">Ren</strong>
+                    <br>Who said I don't like it? One tries many styles until finds the perfect fit. 
+                    </p>
+             </div>
+             <div id="time">14.24</div>
+        
+            <div>
+                <input type="text" id="input">
+                <input type="button" class="button" value="SEND">
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
